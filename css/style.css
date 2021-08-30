@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.carousel-item{
+  height: 715px;
+}
+#carouselExampleIndicators{
+  height: 100%;
+}
+.carousel-inner img{
+  height: 100%;
+
+  object-fit: cover;
+}
+
+body{
+  background-color: black;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.body_background img{
+  height: 100%;
+}
+.line{
+background-color: white;
+position: absolute;
+height: 3px;
+margin-left: auto;
+margin-right: auto;
+top: 94px;
+left: 0;
+right: 0;
+text-align: center;
+}
+.logotype{
+  z-index: 1;
+  position: absolute;
+  height: 100px;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+.list_menu{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+    top: 120px;  /* position the top  edge of the element at the middle of the parent */
+    left: 45%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
+.menu {
+  color: white;
+  font-size: 18px;
+  padding: 2%;
+}
+a.link_menu {
+  color:white;
+}
+a.link_menu:hover {
+  color:white;
+  text-decoration: underline;
+}
+.white_div{
+ background-color: white;
+  height: 125px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 27px;
+}
+.txt{
+  padding-top: 17px;
+  word-spacing: 10px;
+}
+.darker{
+  background-color: black;
+  color: #FFFFFF;
+  padding: 5px;
+}
+footer{
+  position: relative;
+  background-color: rgb(13, 13, 14);
+  min-height: 300px;
+  height: auto;
+}
+
+.logo2{
+  position: absolute;
+  height: 50px;
+  display: inline;
+  top: 100px;
+  left: 30px;
+} 
+.logo2:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+.vkontakte img{
+  max-height: 100px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 310px;
+}
+.vkontakte:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+.instagram img{
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+.instagram:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+
+.list_menu2{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+    top: 35px;  /* position the top  edge of the element at the middle of the parent */
+    left: 19px; /* position the left edge of the element at the middle of the parent */
+} 
+.paying{
+  padding: 60px 40px 0px 0px;
+  color: #d8d8da;
+  font-size: 14px;
+}
+.payfor{
+  padding: 0px 30px 0px 0px;
+}
+.email{
+  padding: 60px 40px 0px 0px;
+  color: #515151;
+  font-size: 14px;
+}
+.emailtext{
+  font-size: 17px;
+  padding: 0px 40px 0px 0px;
+  color: #FFFFFF;
+}
+.text{
+  padding: 20px 40px 0px 0px;
+  color: #515151;
+  font-size: 14px;
+}
+.directlytext{
+  font-size: 17px;
+  padding: 0px 40px 0px 0px;
+  color: #FFFFFF;
+}
+.services{
+  display: flexbox;
+  padding-right: 40px;
+  padding-top: 0px;
+  color: #515151;
+}
+.cringell{
+  font-size: 17px;
+  color: #ffffff;
+  position: absolute;
+  display: flex;
+  left: 30px;
+  bottom: 70px;
+}

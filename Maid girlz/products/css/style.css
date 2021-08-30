@@ -1,0 +1,375 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+body{
+
+  background-color: rgb(30, 30, 31);
+}
+header {
+  background-color: rgb(13, 13, 14);
+  height: 150px;
+}
+
+
+
+.line{
+  background-color: white;
+  position: absolute;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 94px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  }
+.logotype{
+  height: 100px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.list_menu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+a.linkmain {
+  color:#FFFFFF;
+}
+a.linkmain:hover {
+  color:#FFFFFF;
+  text-decoration: underline;
+}
+.menu {
+  color: white;
+  font-size: 18px;
+  padding: 9px;
+  margin: center;  
+}
+main{
+  background-color: rgb(17, 17, 18);
+}
+.article{
+ text-align: center;
+ padding-top: 40px;
+ font-size: 27px;
+ color: white;
+}
+.productAppPage{
+  display: flex;
+}
+.carousel-item img {
+  height: 600px;
+  width: 600px;
+}
+.carousel-control-prev:hover{
+  background-color: rgba(0,0,0, 0.2);
+}
+.carousel-control-next:hover{
+  background-color: rgba(0,0,0, 0.2);
+}
+.productPrice{
+  font-size: 23px;
+  text-decoration:  none;
+  display: inline-block;
+  color: black;
+  padding: 8px 30px;
+  margin: 30px 0px 30px 20px;
+  font-weight: 550;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color:white;
+  background-size: 200px auto;
+  box-shadow: 0 0 20px rgba(1, 1, 1, .2);
+  transition: .5s;
+}
+
+.productText{
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 18px;
+  max-width: 700px;
+}
+.productAbilities{
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+  word-spacing: 3px;
+  max-width: 700px;
+}
+.productBuyButton{
+  display: inline-block;
+  color: black;
+  padding: 15px 58px;
+  margin: 30px 0px 30px 20px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color:white;
+  background-size: 200px auto;
+  box-shadow: 0 0 20px rgba(1, 1, 1, .2);
+  transition: .5s;
+}
+.productBuyButton:hover {
+background-color: rgb(100, 100, 100);
+text-decoration: none;
+color: black;
+}
+/* .productCounter{
+  display: flex;
+  border-radius: 1px;
+  color:#FFFFFF
+}
+.productMinus button{
+  border-radius: 100px ;
+  width: 100px;
+  outline: none;
+    background: 0 0;
+    cursor: pointer;  
+}
+.productmeaning input{
+  margin: 0%;
+  width: 30px;
+ 
+    background: #fff;
+}
+
+Saved as style.css
+
+.main_container {
+  height: 46px;
+  width: auto;
+  padding: 30px;
+  margin: 20px;
+  max-width: 300px;
+  background-color: #fff;
+  align-content: center;
+}
+.container_inner {
+  height: auto;
+  border: none;
+  background-color: #fff;
+  max-width: 290px;
+  vertical-align: center;
+  padding-top: 12px;
+  padding-left: 10px;
+  align-content: center;
+}
+ .num_tiles {
+  width:30px;
+  height: 30px;
+  background-color: #fff;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 33px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
+} */
+.nav{
+  width: 600px;
+border: 0px;
+border-radius: 40px;
+overflow: hidden;
+margin: 30px;
+}
+/* .counter{
+  display: flex;
+  font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .07em;
+}
+.counter-minus button{
+  box-sizing: border-box;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+  font: 400 13.3333px Arial;
+}
+
+.counter-display h1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+} */
+footer{
+  position: relative;
+  background-color: rgb(13, 13, 14);
+  min-height: 300px;
+  height: auto;
+}
+
+.logo2{
+  position: absolute;
+  height: 50px;
+  display: inline;
+  top: 100px;
+  left: 30px;
+}
+.logo2:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+.vkontakte img{
+  max-height: 100px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 310px;
+}
+.vkontakte:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+.instagram img{
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+.instagram:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 black);
+}
+
+.list_menu2{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+    top: 35px;  /* position the top  edge of the element at the middle of the parent */
+    left: 20px;
+
+} 
+.paying{
+  padding: 60px 40px 0px 0px;
+  color: #d8d8da;
+  font-size: 14px;
+}
+.payfor{
+  padding: 0px 30px 0px 0px;
+}
+.email{
+  padding: 60px 40px 0px 0px;
+  color: #515151;
+  font-size: 14px;
+}
+.emailtext{
+  font-size: 17px;
+  padding: 0px 40px 0px 0px;
+  color: #FFFFFF;
+}
+.text{
+  padding: 20px 40px 0px 0px;
+  color: #515151;
+  font-size: 14px;
+}
+.directlytext{
+  font-size: 17px;
+  padding: 0px 40px 0px 0px;
+  color: #FFFFFF;
+}
+.services{
+  display: flexbox;
+  padding-right: 40px;
+  padding-top: 0px;
+  color: #515151;
+}
+.cringell{
+  font-size: 17px;
+  color: #ffffff;
+  position: absolute;
+  display: flex;
+  left: 30px;
+  bottom: 70px;
+}
